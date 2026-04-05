@@ -47,12 +47,14 @@ export default function App() {
             </div>
           </div>
 
-          <div className="relative z-20 -mt-16 w-full">
+         {/* Full-bleed Product Image */}
+          <div className="relative z-20 -mt-20 w-full">
             <FadeIn delay={0.2}>
               <img 
-                src="Watermelonslice1.webp" 
+                src="/watermelon_detail/Watermelonslice1.webp" 
                 alt="프리미엄 수박" 
-                className="w-full h-[320px] sm:h-[420px] object-cover"
+                className="w-full h-[350px] sm:h-[450px] object-cover"
+                referrerPolicy="no-referrer"
               />
               <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-white"></div>
             </FadeIn>
